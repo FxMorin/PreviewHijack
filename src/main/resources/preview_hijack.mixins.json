@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "ca.fxco.preview_hijack.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "server": [
+    "CommandsMixin",
+    "MinecraftServerMixin",
+    "PlayerListMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
